@@ -2,7 +2,10 @@ package br.com.cotiinformatica.api_agenda.services;
 
 import br.com.cotiinformatica.api_agenda.dtos.CategoriaRequest;
 import br.com.cotiinformatica.api_agenda.dtos.CategoriaResponse;
+import br.com.cotiinformatica.api_agenda.dtos.TarefaRequest;
+import br.com.cotiinformatica.api_agenda.dtos.TarefaResponse;
 import br.com.cotiinformatica.api_agenda.entities.Categoria;
+import br.com.cotiinformatica.api_agenda.entities.Tarefa;
 import br.com.cotiinformatica.api_agenda.repositories.CategoriaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
